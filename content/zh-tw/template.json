@@ -1,15 +1,55 @@
 {
-  "browser-title":"io.js - JavaScript I/O",
-  "logo-text":"io.js",
+  "browser-title": "io.js - JavaScript I/O",
+  "contribute-message": "看到什麼喜歡的？想要出一份力？請見 https://github.com/nodejs/website 了解如何貢獻",
+  "heading-languages": "其他語言",
+  "logo-text": "io.js",
   "roadmap-url": "http://roadmap.iojs.org",
   "roadmap-link": "Roadmap",
-  "heading-languages":"其他語言",
-  "faq-link":"常見問題",
-  "es6-link":"ES6",
-  "api-link":"API 文件",
-  "issues-link":"GitHub 議題",
-  "org-link":"GitHub 組織",
-  "irc-link":"IRC 討論",
-  "irc-logs-link":"日誌",
-  "gov-link":"專案管理"
+  "faq-link": "常見問題",
+  "es6-link": "ES6",
+  "api-link": "API 文件",
+  "issues-link": "GitHub 議題",
+  "org-link": "GitHub 組織",
+  "irc-link": "IRC 討論",
+  "irc-logs-link": "日誌",
+  "gov-link": "專案管理",
+  "downloads": {
+    "linux": "Linux",
+    "win32": "Win32",
+    "win64": "Win64",
+    "mac": "Mac",
+    "all": "其他平台"
+  },
+  "verbose_version": "版本 {{project.current_version}}",
+  "home": {
+    "download_links": "下載 {{> current_download_links}}",
+    "faq_verbose": "{{link 'pages.faq_verbose'}}",
+    "nightly_releases": "{{link '每晚發行' 'https://iojs.org/download/nightly/'}} 供測試 <br> 及做為 {{link 'io.js 的下個主要版本' 'https://iojs.org/download/next-nightly/'}}",
+    "short_description": "{{link 'website'}} 是一個與 {{link 'npm'}} 相容並以 {{link 'nodejs'}} 為基礎的應用程式平台。",
+    "slogan": "讓 {{link 'pages.es6'}} 走入 Node.js 社群！",
+    "news_link": "{{link '每週更新 – 6 月 26 日' 'https://medium.com/@iojs/io-js-week-of-june-26th-51ab30238256'}}<br><small>核心特色以及社群更新 ({{link '過去更新可從 Medium 取得' 'https://medium.com/@iojs/latest'}})</small>"
+  },
+  "releases": {
+    "title": "io.js 發行版本",
+    "downloads": "下載"
+  },
+  "links": {
+    "nodejs": "Node.js™",
+    "npm": "npm",
+    "website": "io.js",
+    "pages": {
+      "changelog": "變更記錄",
+      "releases": "發行版本",
+      "home": "首頁",
+      "es6": "ES6",
+      "faq": "常見問題",
+      "faq_verbose": "常見問與答"
+    },
+    "rss": [
+      {
+        "title": "每週更新 (Medium)",
+        "url": "https://medium.com/feed/@iojs"
+      }
+    ]
+  }
 }
